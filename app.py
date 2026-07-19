@@ -160,9 +160,9 @@ st.title("Healthy Meals - Batch Churn Scorer")
 st.write(
     "Upload a CSV of customer records to score each one's probability of churn. "
     "The app rebuilds various engineered features and one-hot encoding automatically, "
-    "so you only need to provide the columns listed here under 'Required Columns', which might first require "
-    "some light preprocessing compared to the original database, as laid out in the SQL/Python notebook submitted "
-    "with this assignment."
+    "so you only need to provide the columns listed here under 'Required Columns.' In a real-world scenario, "
+    "acquiring some of these columns might require some light preprocessing work with a Snowflake connection to the original database, " 
+    "as laid out in the SQL/Python notebook submitted with this assignment."
 )
 
 with st.sidebar:
