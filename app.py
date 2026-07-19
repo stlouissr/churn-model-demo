@@ -159,8 +159,10 @@ st.set_page_config(page_title="Healthy Meals Churn Scorer", page_icon=None, layo
 st.title("Healthy Meals - Batch Churn Scorer")
 st.write(
     "Upload a CSV of customer records to score each one's probability of churn. "
-    "The app rebuilds the engineered features and one-hot encoding automatically, "
-    "so you only need to provide the raw columns listed below."
+    "The app rebuilds various engineered features and one-hot encoding automatically, "
+    "so you only need to provide the columns listed here under 'Required Columns', which might first require "
+    "some light preprocessing compared to the original database, as laid out in the SQL/Python notebook submitted "
+    "with this assignment."
 )
 
 with st.sidebar:
